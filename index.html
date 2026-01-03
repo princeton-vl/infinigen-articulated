@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Infinigen-Sim is a toolkit for procedurally generating articulated assets in simulation.">
+        content="Infinigen Articulated is a toolkit for procedurally generating articulated simulator assets">
   <meta name="keywords" content="Robot Simulation, Articulated Objects, Procedural Generation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Infinigen-Sim: Procedural Generation of Articulated Simulation Assets</title>
+  <title>Infinigen Articulated: Procedural Generation of Articulated Simulation-Ready Assets</title>
   <link rel="icon" href="static/images/princeton-vl.png">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -60,42 +60,51 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">
-            <span class="gradient-text">Infinigen-Sim</span>: Procedural Generation of Articulated Simulation Assets
+            <span class="gradient-text">Infinigen Articulated</span>: Procedural Generation of Articulated Simulation-Ready Assets
           </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://abhihjoshi.github.io/">Abhishek Joshi</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="">Beining Han</a><sup>1</sup>,</span>
+              <a href="https://pvl.cs.princeton.edu/people.html">Beining Han</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="">Jack Nugent</a><sup>1</sup>,
+              <a href="https://pvl.cs.princeton.edu/people.html">Jack Nugent</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://zuoym15.github.io/">Yiming Zuo</a><sup>1</sup>,
+              <a href="https://pvl.cs.princeton.edu/people.html">Max Gonzalez Saez-Diez</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="">Jonathan Liu</a><sup>1</sup>,
+              <a href="https://zuoym15.github.io">Yiming Zuo</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://hermera.github.io/">Hongyu Wen</a><sup>1</sup>,
+              <a href="https://pvl.cs.princeton.edu/people.html">Jonathan Liu</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://stamatisalex.github.io/">Stamatis Alexandropoulos</a><sup>1</sup>,
+              <a href="https://hermera.github.io">Hongyu Wen</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="">Tao Sun</a><sup>1,2</sup>,
+              <a href="https://pvl.cs.princeton.edu/people.html">Stamatis Alexandropoulos</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://araistrick.github.io/">Alexander Raistrick</a><sup>1</sup>,
+              <a href="https://pvl.cs.princeton.edu/people.html">Karhan Kayan</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="">Gaowen Liu</a><sup>3</sup>,
+              <a href="https://pvl.cs.princeton.edu/people.html">Anna Calveri</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.mcgill.ca/civil/yi-shao">Yi Shao</a><sup>2</sup>,
+              <a href="https://pvl.cs.princeton.edu/people.html">Tao Sun</a><sup>1,2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a><sup>1</sup>,
+              <a href="https://pvl.cs.princeton.edu/people.html">Gaowen Liu</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://pvl.cs.princeton.edu/people.html">Yi Shao</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="http://araistrick.com">Alexander Raistrick</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="http://www.cs.princeton.edu/~jiadeng">Jia Deng</a><sup>1</sup>,
             </span>
           </div>
 
@@ -208,7 +217,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We introduce Infinigen-Sim, a toolkit which enables users to create diverse 
+            We introduce Infinigen Articulated, a toolkit which enables users to create diverse 
             and realistic articulated object procedural generators. These tools are composed 
             of high-level utilities for use creating articulated assets in Blender, as well 
             as an export pipeline to integrate the resulting assets into common robotics 
@@ -268,9 +277,9 @@
           <h2 class="title is-3">Key Advantages</h2>
           <p>
             <ol>
-              <li><strong>Accurate Joints and Highly Detailed Assets</strong>: Assets in Infinigen-Sim are procedurally generated, giving us full control over every part and joint. This ensures correct joint configurations by design. Infinigen-Sim also supports high-detail modeling, enabling the inclusion of small, articulated components.</li>
+              <li><strong>Accurate Joints and Highly Detailed Assets</strong>: Assets in Infinigen Articulated are procedurally generated, giving us full control over every part and joint. This ensures correct joint configurations by design. Infinigen Articulated also supports high-detail modeling, enabling the inclusion of small, articulated components.</li>
               <li><strong>Unlimited Kinematic Variation</strong>: Users can define custom parameter distributions to vary asset properties that affect downstream performance. For example, the distance between a door handle and the door hinge influences a robot's trajectory. By adjusting this parameter, users can generate a diverse set of door configurations that promote more robust policies.</li>
-              <li><strong>Combinatorial Coverage</strong>: Many asset parameters can be varied independently, allowing Infinigen-Sim to generate a wide and diverse range of asset configurations. This independence enables combinatorial diversity, making it possible to systematically explore how individual factors influence downstream performance in robot learning tasks.</li>
+              <li><strong>Combinatorial Coverage</strong>: Many asset parameters can be varied independently, allowing Infinigen Articulated to generate a wide and diverse range of asset configurations. This independence enables combinatorial diversity, making it possible to systematically explore how individual factors influence downstream performance in robot learning tasks.</li>
             </ol>
           </p>
         </div>
@@ -287,14 +296,14 @@
         <div class="content">
           <h2 class="title is-3">Creating Your Own Procedural Articulated Assets</h2>
           <p>
-            Infinigen-Sim extends Blender Geometry and Shader Nodes, a popular artist-friendly system designed for
+            Infinigen Articulated extends Blender Geometry and Shader Nodes, a popular artist-friendly system designed for
             procedural generation. This system allows you to model meshes and materials by composing primitives,
             geometric transformations, and arithmetic operations represented as nodes in a directed graph. Assets 
             can be made in three easy steps:
             <ol>
               <li>Create your articulated asset in Blender using our custom joint nodes.</li>
               <li>Define custom parameter distributions.</li>
-              <li>Export to your simulation format of choice using Infinigen-Sim.</li>
+              <li>Export to your simulation format of choice using Infinigen Articulated.</li>
             </ol>
             
             More information on how to create your own custom assets coming soon!
@@ -316,7 +325,7 @@
         <div class="content">
           <h2 class="title is-3">Successful Sim-to-Real</h2>
           <p>
-            Through Infinigen-Sim, we see a significant boost in performance for opening doors in the real world. The task for the robot is to first turn the handle and then push the door open. We train an ACT (Zhao et al., 2023) policy using trajectories collected using a motion planner in simulation. We saw that a policy trained using purely Infinigen-Sim assets achieved a success rate of 70% in the real world while a policy trained on baseline assets from PartNet-Mobility (Xiang et al., 2020) achieved a 0% success rate.
+            Through Infinigen Articulated, we see a significant boost in performance for opening doors in the real world. The task for the robot is to first turn the handle and then push the door open. We train an ACT (Zhao et al., 2023) policy using trajectories collected using a motion planner in simulation. We saw that a policy trained using purely Infinigen Articulated assets achieved a success rate of 70% in the real world while a policy trained on baseline assets from PartNet-Mobility (Xiang et al., 2020) achieved a 0% success rate.
           </p>          
           </p>
         </div>
@@ -333,14 +342,14 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{joshi2025infinigensimproceduralgenerationarticulated,
-      title={Infinigen-Sim: Procedural Generation of Articulated Simulation Assets}, 
-      author={Abhishek Joshi and Beining Han and Jack Nugent and Yiming Zuo and Jonathan Liu and Hongyu Wen and Stamatis Alexandropoulos and Tao Sun and Alexander Raistrick and Gaowen Liu and Yi Shao and Jia Deng},
+    <pre><code>@misc{joshi2025infinigenarticulated,
+      title={Procedural Generation of Articulated Simulation-Ready Assets},
+      author={Abhishek Joshi and Beining Han and Jack Nugent and Max Gonzalez Saez-Diez and Yiming Zuo and Jonathan Liu and Hongyu Wen and Stamatis Alexandropoulos and Karhan Kayan and Anna Calveri and Tao Sun and Gaowen Liu and Yi Shao and Alexander Raistrick and Jia Deng},
       year={2025},
       eprint={2505.10755},
       archivePrefix={arXiv},
       primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2505.10755}, 
+      url={https://arxiv.org/abs/2505.10755},
 }</code></pre>
   </div>
 </section>
