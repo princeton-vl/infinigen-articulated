@@ -157,6 +157,16 @@
                   <span>Code</span>
                 </a>
               </span>
+              <!-- Getting Started Link. -->
+              <span class="link-block">
+                <a href="https://github.com/princeton-vl/infinigen/blob/main/docs/simulation/ExportingToSimulators.md"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-rocket"></i>
+                  </span>
+                  <span>Getting Started</span>
+                </a>
+              </span>
               <!-- Dataset Link. -->
               <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
@@ -176,46 +186,15 @@
   </div>
 </section>
 
-<section class="section">
+<section class="hero teaser">
   <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h4 class="title is-4">Generate unlimited articulated objects compatible with Isaac, MuJoCo, ManiSkill3, and many other simulation frameworks!</h4>
-        <a href="https://github.com/princeton-vl/infinigen/blob/main/docs/simulation/ExportingToSimulators.md"
-            class="external-link button is-normal is-rounded is-dark">
-          <span>Getting Started</span>
-        </a>
-      </div>
+    <div class="hero-body">
+      <video id="teaser" autoplay controls muted loop playsinline height="100%">
+        <source src="./static/videos/infinigen_articulated.mp4"
+                type="video/mp4">
+      </video>
     </div>
   </div>
-</section>
-
-<section class="section">
-  <div class="gif-row">
-    <img src="static/images/door_1.gif" alt="Articulated door 1">
-    <img src="static/images/door_2.gif" alt="Articulated door 2">
-    <img src="static/images/door_3.gif" alt="Articulated door 3">
-    <img src="static/images/door_4.gif" alt="Articulated door 4">
-    <img src="static/images/door_5.gif" alt="Articulated door 5">
-    <img src="static/images/door_6.gif" alt="Articulated door 6">
-  </div>
-  <div class="gif-row">
-    <img src="static/images/fridge_1.gif" alt="Articulated fridge 1">
-    <img src="static/images/fridge_3.gif" alt="Articulated fridge 3">
-    <img src="static/images/fridge_4.gif" alt="Articulated fridge 4">
-    <img src="static/images/fridge_2.gif" alt="Articulated fridge 2">
-    <img src="static/images/fridge_5.gif" alt="Articulated fridge 5">
-    <img src="static/images/fridge_6.gif" alt="Articulated fridge 6">
-  </div>
-  <div class="gif-row">
-    <img src="static/images/toaster_1.gif" alt="Articulated toaster 1">
-    <img src="static/images/toaster_3.gif" alt="Articulated toaster 3">
-    <img src="static/images/toaster_4.gif" alt="Articulated toaster 4">
-    <img src="static/images/toaster_2.gif" alt="Articulated toaster 2">
-    <img src="static/images/toaster_5.gif" alt="Articulated toaster 5">
-    <img src="static/images/toaster_6.gif" alt="Articulated toaster 6">
-  </div>
-</body>
 </section>
 
 <section class="section">
@@ -226,32 +205,20 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We introduce Infinigen Articulated, a toolkit which enables users to create diverse 
-            and realistic articulated object procedural generators. These tools are composed 
-            of high-level utilities for use creating articulated assets in Blender, as well 
-            as an export pipeline to integrate the resulting assets into common robotics 
-            simulators. We demonstrate our system by creating procedural generators for 5 
-            common articulated object categories. Experiments show that assets sampled from 
-            these generators are useful for movable object segmentation, training generalizable 
-            reinforcement learning policies, and sim-to-real transfer of imitation learning 
+            We introduce Infinigen Articulated, a toolkit which enables users to create diverse
+            and realistic articulated object procedural generators. These tools are composed
+            of high-level utilities for use creating articulated assets in Blender, as well
+            as an export pipeline to integrate the resulting assets into common robotics
+            simulators. We demonstrate our system by creating procedural generators for 5
+            common articulated object categories. Experiments show that assets sampled from
+            these generators are useful for movable object segmentation, training generalizable
+            reinforcement learning policies, and sim-to-real transfer of imitation learning
             policies.
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
-  </div>
-</section>
-
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay controls muted loop playsinline height="100%">
-        <source src="./static/videos/infinigen_articulated.mp4"
-                type="video/mp4">
-      </video>
-    </div>
   </div>
 </section>
 
